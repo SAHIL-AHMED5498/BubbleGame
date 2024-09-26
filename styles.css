@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Verdana;
+}
+
+body{
+    padding: 1rem;
+    background-color: rgb(63, 215, 114);
+}
+
+#main{
+  
+
+    height: 80vh;
+    width: 80vw;
+    background-color: aliceblue;
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 6px;
+}
+#panel{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+#pbtm{
+    flex-wrap: wrap;
+    display: flex;
+    height: 100%;
+    background-color: rgb(75, 132, 81);
+}
+
+#ptop{
+    background-color: rgb(1, 58, 39);
+
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.elem{
+    height: 20px;
+    width: 75px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    background-color:rgb(1, 58, 39);
+
+}
+
+.elem p{
+    
+    color: white;
+    font-weight: 500;
+}
+.box{
+
+    display: flex;
+    /* text-align: center; */
+    padding: 2px;
+    height: 80%;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2px;
+    margin-left: 2px;
+    /* vertical-align: middle; */
+    justify-content: center;
+    align-items: center;
+}
+.bubble{
+    
+    border-radius: 50%;
+    margin: 6px;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.bubble:hover{
+    cursor: pointer;
+    
+}
+.bubble:active{
+    background-color: black;
+    color: white;
+}
